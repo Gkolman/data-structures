@@ -12,7 +12,7 @@ class Stack {
   }
 
   pop() {
-    if (this.length === 0 ) {return; }
+    if (this.length === 0 ) { return; }
     var copy = this.storage[this.length - 1];
     delete this.storage[this.length - 1];
     this.length--;
