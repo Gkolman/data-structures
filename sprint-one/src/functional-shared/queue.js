@@ -30,7 +30,7 @@ queueMethods.dequeue = function() {
   this.length--;
   return copy;
 };
-//
+
 queueMethods.size = function() {
   return this.length;
 };

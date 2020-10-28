@@ -27,6 +27,6 @@ var Queue = function() {
   someInstance.size = function() {
     return length;
   };
-  //
+
   return someInstance;
 };

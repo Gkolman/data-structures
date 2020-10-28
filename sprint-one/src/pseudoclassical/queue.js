@@ -17,7 +17,7 @@ Queue.prototype.enqueue = function(value) {
 };
 
 Queue.prototype.dequeue = function() {
-  if (this.length === 0) {return; }
+  if (this.length === 0) { return; }
   var copy = this.storage[this.front];
   delete this.storage[this.front];
   this.front++;
@@ -30,4 +30,3 @@ Queue.prototype.size = function() {
 };
 
 var newQueue = new Queue;
-//

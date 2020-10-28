@@ -12,7 +12,6 @@ var Queue = function() {
 
 var queueMethods = {};
 
-
 queueMethods.enqueue = function(value) {
 
   this.storage[this.back] = value;
@@ -30,7 +29,7 @@ queueMethods.dequeue = function() {
   return copy;
 
 };
-//
+
 queueMethods.size = function() {
   return this.length;
 };

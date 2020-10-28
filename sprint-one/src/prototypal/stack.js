@@ -10,7 +10,6 @@ var Stack = function() {
   // but try not not reference your old code in writing the new style.
 };
 
-
 var stackMethods = {};
 
 stackMethods.push = function(value) {
@@ -29,7 +28,7 @@ stackMethods.pop = function() {
 stackMethods.size = function() {
   return this.length;
 };
-//
+
 
 
 
